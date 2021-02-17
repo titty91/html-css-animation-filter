@@ -101,3 +101,50 @@
   }
 
 }
+
+
+.ex-12-top-white:hover{
+  animation: destra 2s;
+}
+
+@keyframes destra{
+  0% {
+    left:0px; right:100px;
+  }
+  100% {
+    left:100px; right:0px;
+  }
+/* 100%{
+    left:0px; right:100px;
+  } */
+
+}
+
+.ex-12-bottom-white:hover{
+  animation: sinistra 2s;
+}
+
+@keyframes sinistra{
+  0% {
+    right:0px; left:100px;
+  }
+  100% {
+    right:100px; left:0px;
+  }
+/* 100%{
+    left:0px; right:100px;
+  } */
+
+}
+
+/* .ex-13-bottom-white:hover{
+  animation: sinistra 2s;
+}
+
+@keyframes rotazione{
+  0%   { left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+} */
