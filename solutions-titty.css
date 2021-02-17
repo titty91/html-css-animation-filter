@@ -74,7 +74,30 @@
   width: 500px;
 }
 
-.ruota{
-  transform: rotate(360deg);
-  transition-duration: 1s;
+.ex-10-icon{
+  animation: ruota 1s linear infinite;
+}
+
+@keyframes ruota{
+  0% {
+    transform: rotate(360deg);
+  }
+
+}
+
+.ex-11-icon:hover{
+  animation: ruotare 3s linear;
+}
+
+@keyframes ruotare{
+  0% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(300deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+
 }
